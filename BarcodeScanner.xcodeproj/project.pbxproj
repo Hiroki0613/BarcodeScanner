@@ -12,6 +12,7 @@
 		7F014AD127BBA4ED00191629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F014AD027BBA4ED00191629 /* Assets.xcassets */; };
 		7F014AD427BBA4ED00191629 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F014AD327BBA4ED00191629 /* Preview Assets.xcassets */; };
 		7F014ADB27BBA9FC00191629 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014ADA27BBA9FC00191629 /* ScannerVC.swift */; };
+		7F014ADD27BBB4FD00191629 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014ADC27BBB4FD00191629 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7F014AD027BBA4ED00191629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F014AD327BBA4ED00191629 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F014ADA27BBA9FC00191629 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		7F014ADC27BBB4FD00191629 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				7F014ACC27BBA4E800191629 /* BarcodeScannerApp.swift */,
 				7F014ACE27BBA4E800191629 /* BarcodeScannerView.swift */,
 				7F014ADA27BBA9FC00191629 /* ScannerVC.swift */,
+				7F014ADC27BBB4FD00191629 /* ScannerView.swift */,
 				7F014AD027BBA4ED00191629 /* Assets.xcassets */,
 				7F014AD227BBA4ED00191629 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F014ADB27BBA9FC00191629 /* ScannerVC.swift in Sources */,
+				7F014ADD27BBB4FD00191629 /* ScannerView.swift in Sources */,
 				7F014ACF27BBA4E800191629 /* BarcodeScannerView.swift in Sources */,
 				7F014ACD27BBA4E800191629 /* BarcodeScannerApp.swift in Sources */,
 			);
