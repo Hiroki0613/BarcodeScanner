@@ -8,9 +8,9 @@
 import UIKit
 import AVFoundation
 
-enum CameraError: String {
-    case invalidDeviceInput = "カメラが何か機能していません"
-    case invalidScannedValue = "スキャンができていません。対応したバーコードを表示してください"
+enum CameraError {
+    case invalidDeviceInput
+    case invalidScannedValue
 }
 
 protocol ScannerVCDelegate: class {
